@@ -1,0 +1,21 @@
+name: Auto Deploy Main
+
+# Ensure that only one instance of this task is running at the same time
+concurrency: production
+
+on:
+  push:
+    branches: [ 'main' ]
+
+jobs:
+  auto-deploy-main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm ci
+      - run: npm run deploy
