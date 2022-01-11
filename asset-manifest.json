@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d8439c7.css",
-    "main.js": "/static/js/main.25ff9cea.js",
-    "static/js/787.174dddcc.chunk.js": "/static/js/787.174dddcc.chunk.js",
-    "static/media/audio-poster.png": "/static/media/audio-poster.8fb7dad8bf5247688b5d.png",
-    "index.html": "/index.html",
-    "main.6d8439c7.css.map": "/static/css/main.6d8439c7.css.map",
-    "main.25ff9cea.js.map": "/static/js/main.25ff9cea.js.map",
-    "787.174dddcc.chunk.js.map": "/static/js/787.174dddcc.chunk.js.map"
+    "main.css": "https://cul.github.io/videojs-tests/static/css/main.6d8439c7.css",
+    "main.js": "https://cul.github.io/videojs-tests/static/js/main.330de353.js",
+    "static/js/787.174dddcc.chunk.js": "https://cul.github.io/videojs-tests/static/js/787.174dddcc.chunk.js",
+    "static/media/audio-poster.png": "https://cul.github.io/videojs-tests/static/media/audio-poster.8fb7dad8bf5247688b5d.png",
+    "index.html": "https://cul.github.io/videojs-tests/index.html",
+    "main.6d8439c7.css.map": "https://cul.github.io/videojs-tests/static/css/main.6d8439c7.css.map",
+    "main.330de353.js.map": "https://cul.github.io/videojs-tests/static/js/main.330de353.js.map",
+    "787.174dddcc.chunk.js.map": "https://cul.github.io/videojs-tests/static/js/787.174dddcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d8439c7.css",
-    "static/js/main.25ff9cea.js"
+    "static/js/main.330de353.js"
   ]
 }
