@@ -35,9 +35,9 @@ function App() {
   return (
     <div className="App">
       <div style={{ width: "700px" }}>
-        <h1>Video Sample</h1>
+        <h1>Video Example</h1>
         <VideoPlayer options={videoJsOptionsForVideo} onReady={handleVideoPlayerReady} />
-        <h1>Audio Sample</h1>
+        <h1>Audio Example</h1>
         <AudioPlayer options={videoJsOptionsForAudio} onReady={handleAudioPlayerReady} />
       </div>
     </div>
