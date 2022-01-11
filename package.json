@@ -17,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "PUBLIC_URL=https://cul.github.io/videojs-tests/ npm run build && gh-pages --dist build --repo git@github.com:cul/videojs-tests.git --branch gh-pages"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

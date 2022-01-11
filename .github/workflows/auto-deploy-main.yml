@@ -10,6 +10,8 @@ on:
 jobs:
   auto-deploy-main:
     runs-on: ubuntu-latest
+    env:
+      PUBLIC_URL: https://cul.github.io/videojs-tests/
 
     steps:
       - uses: actions/checkout@v2
@@ -18,4 +20,9 @@ jobs:
         with:
           node-version: '14'
       - run: npm ci
-      - run: npm run deploy
+      - run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
